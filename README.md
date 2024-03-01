@@ -45,4 +45,8 @@ In future updates, I plan to add more maze generation algorithms to Maze Toolkit
 - Kruskal's Algorithm
 - Recursive Division
 
+<<<<<<< HEAD
 Stay tuned for these exciting additions!
+=======
+Stay tuned for these exciting additions!
+>>>>>>> cd7c17ad7a4a94e573d0123de51ed39d9c757209
