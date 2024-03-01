@@ -1,45 +1,43 @@
 # maze-toolkit
 Welcome to Maze Toolkit! This toolkit provides functionality for generating and solving mazes.
 
-### Summary
-1. Introduction
-2. Getting Started
-3. Usage
-4. Algorithm Options
+## 📝 Table of Contents
++ [About](#about)
++ [Getting Started](#getting-started)
++ [Usage](#usage)
++ [Algorithm Options](#algorithm-options)
++ [Future Updates](#future-updates)
 
-### Introduction
+## 🧐 About <a name = "about"></a>
 Maze Toolkit is a collection of C++ programs designed to generate, visualize, and solve mazes. Whether you're interested in exploring maze generation algorithms or testing your skills in maze solving, Maze Toolkit has got you covered.
 
-### Getting Started
+## 🏁 Getting Started <a name = "getting-started"></a>
 To get started with Maze Toolkit, you have two options:
 
-1. Download the Executable: Simply download the executable file from `/public/maze-toolkit.exe` and run it on your local machine.
+__Download the Executable:__ Simply download the executable file from `public/maze-toolkit.exe` and run it on your local machine.
 
-2. Manual Setup:
-    - Clone the repository to your local machine: `git clone https://github.com/yourusername/maze-toolkit.git`
-    - Ensure you have a C++ compiler installed.
-    - Navigate to the src directory.
-    - Compile the source files using your preferred compiler.
-    - Run the executable to start using Maze Toolkit.
+__Manual Setup:__
+1. Clone the repository to your local machine.
+```
+git clone https://github.com/yourusername/maze-toolkit.git
+```
+2. Ensure you have a C++ compiler installed.
+3. Navigate to the src directory.
+4. Compile the source files using your preferred compiler.
+5. Run the executable to start using Maze Toolkit.
 
-### Usage
+## 🎈 Usage <a name = "usage"></a>
 Once you've compiled and run the executable, you'll be prompted to choose a maze generation algorithm and specify the dimensions of the maze. After generating the maze, you'll have the option to solve it manually or let Maze Toolkit solve it for you.
 
-### Algorithm Options
+## 🛠️ Algorithm Options <a name = "algorithm-options"></a>
 Maze Toolkit offers the following maze generation algorithms:
 
 - Depth-First Search (DFS)
 
-<div align="center">
-  <a href="https://maze-toolkit.netlify.app/">
-    <img src="">
-  </a>
-</div>
+## 🚀 Future Updates <a name = "future-updates"></a>
+In future updates, I plan to add more maze generation algorithms to Maze Toolkit, including:
+- Prim's Algorithm
+- Kruskal's Algorithm
+- Recursive Division
 
-<br>
-
-<div align="center">
-
-![C++ Badge](https://img.shields.io/badge/C%2B%2B-00599C?logo=cplusplus&logoColor=fff&style=for-the-badge)
-
-</div>
+Stay tuned for these exciting additions!
