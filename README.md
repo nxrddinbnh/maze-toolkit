@@ -1,4 +1,4 @@
-# <img src="/public/assets/mt-logo.svg">   Maze Toolkit
+# Maze Toolkit
 Welcome to Maze Toolkit! This toolkit provides functionality for generating and solving mazes.
 
 ## 📝 Table of Contents
