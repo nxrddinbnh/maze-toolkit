@@ -21,7 +21,7 @@ __Download the Executable:__ Simply download the executable file from `public/ma
 __Manual Setup:__
 1. Clone the repository to your local machine.
 ```
-git clone https://github.com/yourusername/maze-toolkit.git
+git clone https://github.com/nxrddinbnh/maze-toolkit.git
 ```
 2. Ensure you have a C++ compiler installed.
 3. Navigate to the src directory.
