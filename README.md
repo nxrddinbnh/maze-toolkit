@@ -16,7 +16,8 @@ Maze Toolkit is a collection of C++ programs designed to generate, visualize, an
 ## 🏁 Getting Started 
 To get started with Maze Toolkit, you have two options:
 
-__Download the Executable:__ Simply download the executable file from `public/maze-toolkit.exe` and run it on your local machine.
+__Download the Executable:__ 
+1. Simply download the executable file from `public/maze-toolkit.exe` and run it on your local machine.
 
 __Manual Setup:__
 1. Clone the repository to your local machine.
