@@ -1,8 +1,6 @@
-#include <vector>
-#include <random>
 #include "../public/include/add-paths.hpp"
 
-void addPaths(std::vector<std::vector<int>>* maze)
+void addPaths(std::vector<std::vector<int>> *maze)
 {
     std::random_device seed;
     std::mt19937 random(seed());

@@ -1,8 +1,10 @@
-#include <vector>
 #include "../public/include/solve-maze.hpp"
+#include "../public/include/enumerate-cells.hpp"
 
-void solveMaze(std::vector<std::vector<int>>* maze)
+bool solveMaze(std::vector<std::vector<int>> *maze)
 {
+    enumerateCells(maze);
+
     int entryY, currentX = 0, currentY, newX, newY, value;
     std::vector<std::pair<int, int>> directions = {{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
 
@@ -20,6 +22,7 @@ void solveMaze(std::vector<std::vector<int>>* maze)
 
     while (value != 1)
     {
+        bool foundPath = false;
         for (std::pair<int, int> dir : directions)
         {
             int nextX = currentX + dir.second;
@@ -32,12 +35,20 @@ void solveMaze(std::vector<std::vector<int>>* maze)
                     value = (*maze)[nextY][nextX];
                     newX = nextX;
                     newY = nextY;
+                    foundPath = true;
                 }
             }
+        }
+
+        if (!foundPath)
+        {
+            return false;
         }
 
         currentX = newX;
         currentY = newY;
         (*maze)[currentY][currentX] = 2147483646;
     }
+
+    return true;
 }

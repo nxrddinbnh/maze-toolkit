@@ -1,8 +1,6 @@
-#include <iostream>
-#include <vector>
 #include "../public/include/print-maze.hpp"
 
-void printMaze(std::vector<std::vector<int>>* maze)
+void printMaze(std::vector<std::vector<int>> *maze)
 {
     std::cout << std::endl;
 
@@ -16,7 +14,7 @@ void printMaze(std::vector<std::vector<int>>* maze)
             }
             else if ((*maze)[height][width] == 2147483646)
             {
-                std::cout << "+ ";
+                std::cout << ". ";
             }
             else
             {
@@ -26,4 +24,6 @@ void printMaze(std::vector<std::vector<int>>* maze)
 
         std::cout << std::endl;
     }
+
+    std::cout << std::endl;
 }

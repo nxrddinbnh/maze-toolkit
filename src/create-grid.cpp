@@ -1,7 +1,6 @@
-#include <vector>
 #include "../public/include/create-grid.hpp"
 
-void createGrid(std::vector<std::vector<int>>* maze)
+void createGrid(std::vector<std::vector<int>> *maze)
 {
     for (int height = 0; height < (*maze).size(); height++)
     {

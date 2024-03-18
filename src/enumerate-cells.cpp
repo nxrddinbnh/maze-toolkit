@@ -1,8 +1,6 @@
-#include <vector>
-#include <queue>
 #include "../public/include/enumerate-cells.hpp"
 
-void enumerateCells(std::vector<std::vector<int>>* maze)
+void enumerateCells(std::vector<std::vector<int>> *maze)
 {
     std::queue<std::pair<int, int>> queue;
     std::vector<std::pair<int, int>> directions = {{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
